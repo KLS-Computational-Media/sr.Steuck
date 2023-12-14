@@ -11,7 +11,6 @@ function setup() {
    planets.push(new Planet(5, 80, 0, color(255, 0, 255), 0.00166666666666666666)); // Mercury (1 rotation in 1 minute)
   planets.push(new Planet(10, 120, 0, color(255, 140, 0), 0.00011111111111111111)); // Venus (1 rotation in 42 minutes)
   planets.push(new Planet(10, 180, 0, color(0, 0, 255), 0.00002777777777777777)); // Earth (1 rotation in 1 hour)
-  planets.push(new Planet(3, 140, 0, color(192, 192, 192), 0.00023833333333333334)); // Moon (assumed to rotate with Earth)
   planets.push(new Planet(15, 240, 0, color(255, 69, 0), 0.000059583333333333335)); // Mars (1 rotation in 4 hours)
   planets.push(new Planet(30, 360, 0, color(255, 165, 0), 0.000009930555555555555)); // Jupiter (1 rotation in 12 hours)
   planets.push(new Planet(17, 480, 0, color(184, 134, 11), 0.0000021550925925925926)); // Saturn (1 rotation in 1 day)
